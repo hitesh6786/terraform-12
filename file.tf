@@ -3,7 +3,7 @@ terraform {
         bucket = "terraform-bucket-27-5-2024"
         key = "hitesh-terraform/terraform.tfstate"
         region = "us-east-1"
-        profile = "Hitesh"
+       
        
 
       
@@ -18,7 +18,7 @@ terraform {
 }
 
 provider "aws" {
-  profile = "Hitesh"
+  profile = "default"
   region  = "us-east-1"
   # Configuration options
 }
