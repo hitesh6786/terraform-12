@@ -32,7 +32,7 @@ provider "aws" {
 resource "aws_instance" "Public-ec2" {
   ami           = data.aws_ami.amazonlinux.id
   instance_type = "t2.micro"
-  count=1
+  count=3
   key_name = "terraform-keypair"
 
   
